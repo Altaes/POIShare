@@ -31,27 +31,6 @@ MongoClient.connect(url, function(error, db) {
   fileDriver = new FileDriver(db);
   collectionDriver = new CollectionDriver(db);
 });
-//Creates a new MongoClient
-//var mongoClient = new MongoClient(new Server(mongoHost, mongoPort));
-
-//Tries to connect the MongoClient to connect to the MongoDB server
-
-/*
-mongoClient.open(function(err, mongoClient) {
-
-  //Fails if the MongoDB server hasn't been started yet (i.e. `mongodb` in terminal)
-  if (!mongoClient) {
-    console.error("Error! Exiting... Must start MongoDB first");
-    process.exit(1);
-  }
-
-  //Upon successful connection, opens the EnviteDatabase
-  var db = mongoClient.db("EnviteDatabase");
-
-  //Passes the MongoClient database to the collection drier
-  collectionDriver = new CollectionDriver(db);
-});
-*/
 
 app.use(express.static(path.join(__dirname, 'public')));
 
