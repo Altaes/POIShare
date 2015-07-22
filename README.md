@@ -3,8 +3,8 @@ An adapted project allowing users to pin POIs (Points of Interests) and storing 
 This project includes the iOS App itself and also the server written in Node.js. The current project works with the most up to date tools in the package.json file:
 ```
 {
-  "name": "envite-server",
-  "version": "0.0.1",
+  "name": "tour-server",
+  "version": "1.0.2",
   "private": true,
   "dependencies": {
     "express": "4.*",
