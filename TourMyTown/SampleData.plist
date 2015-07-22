@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Data</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Tester</string>
+			<key>Location</key>
+			<dict>
+				<key>type</key>
+				<string>Point</string>
+				<key>coordinates</key>
+				<array>
+					<real>-122.022564</real>
+					<real>37.3247311</real>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Faneuil Hall</string>
+			<key>categories</key>
+			<array>
+				<string>Historic</string>
+				<string>Shopping</string>
+			</array>
+			<key>Location</key>
+			<dict>
+				<key>type</key>
+				<string>Point</string>
+				<key>coordinates</key>
+				<array>
+					<real>-71.05675278</real>
+					<real>42.35996111</real>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>USS Constitution</string>
+			<key>categories</key>
+			<array>
+				<string>Historic</string>
+			</array>
+			<key>Location</key>
+			<dict>
+				<key>type</key>
+				<string>Point</string>
+				<key>coordinates</key>
+				<array>
+					<real>-71.05249999999999</real>
+					<real>42.37611111</real>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

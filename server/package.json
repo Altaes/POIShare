@@ -1,0 +1,11 @@
+{
+  "name": "envite-server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.*",
+    "jade": "1.*",
+    "mongodb": "2.*",
+    "body-parser": "1.*"
+  }
+}
