@@ -1,5 +1,5 @@
 {
-  "name": "envite-server",
+  "name": "tour-server",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

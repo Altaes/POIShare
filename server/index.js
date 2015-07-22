@@ -16,9 +16,6 @@ app.set('view engine', 'jade');
 app.use(bodyParser.json());
 
 //Change the host to the server elsewhere
-var mongoHost = 'localHost';
-var mongoPort = 27017;
-
 var fileDriver;
 var collectionDriver;
 
