@@ -29,3 +29,14 @@ This project includes the iOS App itself and also the server written in Node.js.
   a. Alternatively, you could add: `alias [Name of alias]='cd /usr/local/opt/mongodb; sudo mongod'` in ~/.bash_profile
 5. Once you have MongoDB started up, navigate with a new terminal window to `POIShare/server/` and run `node index.js`; This will start the server that communicates to the MongoDB
 6. After you have the server and the MongoDB up and running, open the Xcode project and run the app.
+
+# Features to Add/TODO:
+1. Add User Profiles (Facebook, Google+) with OAuth and persist user info into the MongoDB
+2. Add Ratings to locations, other user's comments on pins.
+
+# Known Bugs:
+1. When separating pinned locations into categories on Map View, the locations are filtered but when initiating a drag event, the Map View reloads itself and queries all location points, thus removing category filter.
+2. When a picture is added to a pinned location, once the user exits the app, re-enters, and clicks on a pin and the information icon: (i), the picture is gone.
+
+# Licenses/Disclaimer:
+MIT License; Project solely used to learn about js server, database-server interactions, and implementation in an iOS App.
